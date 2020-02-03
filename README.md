@@ -6,6 +6,22 @@
 ```
 kms.dzurl.top
 ```
+## docker-compose.yml
+
+````shell
+version: "3.7"
+services:
+
+  vlmcsd:
+    image: "lianshufeng/kms"
+    container_name: kms
+    restart: always
+    hostname: kms
+    ports:
+      - "1688:1688"
+
+````
+
 
 ## kms version:
 ```
