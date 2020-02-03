@@ -39,9 +39,7 @@ vlmcsd-1112-2019-10-20-Hotbird64
 
 ## win10 专业版
 ``` shell
-slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr /skms kms.dzurl.top
-slmgr /ato
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX && slmgr /skms kms.dzurl.top && slmgr /ato
 ```
 
 这句命令的意思是，马上对当前设置的key和服务器地址等进行尝试激活操作。
