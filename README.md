@@ -43,9 +43,8 @@ slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX && slmgr /skms kms.dzurl.top && slmgr /
 ```
 
 
-## office 2019
+## Office 
 ````shell
-cscript ospp.vbs /inpkey:B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B
 cscript ospp.vbs /sethst:kms.dzurl.top
 cscript ospp.vbs /act
 ````
