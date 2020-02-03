@@ -42,6 +42,14 @@ vlmcsd-1112-2019-10-20-Hotbird64
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX && slmgr /skms kms.dzurl.top && slmgr /ato
 ```
 
+
+## office 2019
+````shell
+cscript ospp.vbs /inpkey:B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B
+cscript ospp.vbs /sethst:kms.dzurl.top
+cscript ospp.vbs /act
+````
+
 这句命令的意思是，马上对当前设置的key和服务器地址等进行尝试激活操作。
 
 kms激活的前提是你的系统是批量授权版本，即VL版，一般企业版都是VL版，专业版有零售和VL版，家庭版旗舰版OEM版等等那就肯定不能用kms激活。一般建议从[http://msdn.itellyou.cn](http://msdn.itellyou.cn)上面下载系统
@@ -204,4 +212,37 @@ Windows Server 2008 Datacenter without Hyper-V |22XQ2-VRXRG-P8D42-K34TD-G3QQC
 Windows Server 2008 for Itanium-Based Systems |4DWFP-JF3DJ-B7DTH-78FJB-PDRHK
 
 
-TODO:office
+## GVLKs for Office 2019
+office版本       | 序列号
+-------------------------------|------------------------------
+Office Professional Plus 2019 | NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP 
+Office Standard 2019 | 6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK 
+Project Professional 2019 | B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B
+Project Standard 2019 | C4F7P-NCP8C-6CQPT-MQHV9-JXD2M
+Visio Professional 2019 | 9BGNQ-K37YR-RQHF2-38RQ3-7VCBB 
+Visio Standard 2019 | 7TQNQ-K3YQQ-3PFH7-CCPPM-X4VQ2
+Access 2019 | 9N9PT-27V4Y-VJ2PD-YXFMF-YTFQT 
+Excel 2019 | TMJWT-YYNMB-3BKTF-644FC-RVXBD
+Outlook 2019 | 7HD7K-N4PVK-BHBCQ-YWQRW-XW4VK 
+PowerPoint 2019 | RRNCX-C64HY-W2MM7-MCH9G-TJHMQ 
+Publisher 2019 | G2KWX-3NW6P-PY93R-JXK2T-C9Y9V
+Skype for Business 2019 | NCJ33-JHBBY-HTK98-MYCV8-HMKHJ 
+Word 2019 | PBX3G-NWMT6-Q7XBW-PYJGG-WXD33 
+
+## GVLKs for Office 2016
+office版本       | 序列号
+-------------------------------|------------------------------
+Office Professional Plus 2016 | XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 
+Office Standard 2016 | JNRGM-WHDWX-FJJG3-K47QV-DRTFM 
+Project Professional 2016 | YG9NW-3K39V-2T3HJ-93F3Q-G83KT 
+Project Standard 2016 | GNFHQ-F6YQM-KQDGJ-327XX-KQBVC 
+Visio Professional 2016 | PD3PC-RHNGV-FXJ29-8JK7D-RJRJK 
+Visio Standard 2016 | 7WHWN-4T7MP-G96JF-G33KR-W8GF4 
+Access 2016 | GNH9Y-D2J4T-FJHGG-QRVH7-QPFDW 
+Excel 2016 | 9C2PK-NWTVB-JMPW8-BFT28-7FTBF 
+OneNote 2016 | DR92N-9HTF2-97XKM-XW2WJ-XW3J6 
+Outlook 2016 | R69KK-NTPKF-7M3Q4-QYBHW-6MT9B 
+PowerPoint 2016| J7MQP-HNJ4Y-WJ7YM-PFYGF-BY6C6 
+Publisher 2016 | F47MM-N3XJP-TQXJ9-BP99D-8K837 
+Skype for Business 2016 | 869NQ-FJ69K-466HW-QYCP2-DDBV6 
+Word 2016 | WXY84-JN2Q9-RBCCQ-3Q3J3-3PFJ6 
