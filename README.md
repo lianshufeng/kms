@@ -4,7 +4,7 @@
 ## 直接可用的地址：
 
 ```
-kms.dzurl.top
+kms.jpy.wang
 ```
 ## docker-compose.yml
 
@@ -39,13 +39,13 @@ vlmcsd-1112-2019-10-20-Hotbird64
 
 ## win10 专业版
 ``` shell
-slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX && slmgr /skms kms.dzurl.top && slmgr /ato
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX && slmgr /skms kms.jpy.wang && slmgr /ato
 ```
 
 
 ## Office 
 ````shell
-cscript ospp.vbs /sethst:kms.dzurl.top
+cscript ospp.vbs /sethst:kms.jpy.wang
 cscript ospp.vbs /act
 ````
 
@@ -99,14 +99,14 @@ cd C:\Program Files (x86)\Microsoft Office\Office16
 然后执行注册kms服务器地址：
 
 ```
-cscript ospp.vbs /sethst:kms.dzurl.top
+cscript ospp.vbs /sethst:kms.jpy.wang
 ```
 /sethst参数就是指定kms服务器地址。
 
 一般ospp.vbs可以拖进去cmd窗口，所以也可以这么弄：
 
 ```
-cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /sethst:kms.dzurl.top
+cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /sethst:kms.jpy.wang
 ```
 
 一般来说，“一句命令已经完成了”，但一般office不会马上连接kms服务器进行激活，所以我们额外补充一条手动激活命令：
